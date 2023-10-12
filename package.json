@@ -1,0 +1,44 @@
+{
+  "name": "react-hello-word",
+  "version": "1.0.0",
+  "description": "a hello word text component",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeban0608/npm-module-hellow-word.git"
+  },
+  "keywords": [
+    "npm",
+    "react"
+  ],
+  "author": "Joeban Hong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeban0608/npm-module-hellow-word/issues"
+  },
+  "homepage": "https://github.com/joeban0608/npm-module-hellow-word#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.5"
+  }
+}
