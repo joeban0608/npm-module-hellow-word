@@ -1,2 +1,1 @@
-declare const HelloWorldStr: () => string;
-export default HelloWorldStr;
+export declare const HelloWorldStr: () => string;

@@ -1,5 +1,4 @@
 /* src/index.ts */
-const HelloWorldStr = () => {
+export const HelloWorldStr = () => {
   return "hello word";
 };
-export default HelloWorldStr;
